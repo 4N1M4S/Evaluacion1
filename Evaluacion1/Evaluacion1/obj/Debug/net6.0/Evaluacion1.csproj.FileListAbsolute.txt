@@ -1,0 +1,15 @@
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\Evaluacion1.csproj.AssemblyReference.cache
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\Evaluacion1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\Evaluacion1.AssemblyInfoInputs.cache
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\Evaluacion1.AssemblyInfo.cs
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\Evaluacion1.csproj.CoreCompileInputs.cache
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\bin\Debug\net6.0\Evaluacion1.exe
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\bin\Debug\net6.0\Evaluacion1.deps.json
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\bin\Debug\net6.0\Evaluacion1.runtimeconfig.json
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\bin\Debug\net6.0\Evaluacion1.dll
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\bin\Debug\net6.0\Evaluacion1.pdb
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\Evaluacion1.dll
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\refint\Evaluacion1.dll
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\Evaluacion1.pdb
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\Evaluacion1.genruntimeconfig.cache
+C:\Users\molle\source\repos\Evaluacion1\Evaluacion1\Evaluacion1\obj\Debug\net6.0\ref\Evaluacion1.dll
