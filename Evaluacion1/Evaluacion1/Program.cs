@@ -22,6 +22,8 @@ namespace App1
 
             buque1.SubirContainer(container1);
             buque1.SubirContainer(container2);
+            buque2.SubirContainer(container3);
+            buque3.SubirContainer(container4);
 
             buque1.ListarContainers();
 
