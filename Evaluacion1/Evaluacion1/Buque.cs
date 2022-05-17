@@ -91,26 +91,13 @@
             else
             {
                 esPosible = true;
+                cantidadContainersCargados = espacioFinal;
+                container.Buque = new Buque(codigo, nombre, pais, cantidadContainers);
+                listaContainers.Add(container);
                 Console.WriteLine("El container ha sido agregado a la carga del buque");
             }
 
-            if (esPosible == true)
-            {
-                int espaciosOcupados = 0;
-
-                listaContainers.Add(container);
-                if (container.Tamaño == 20)
-                {
-                    espaciosOcupados = 1;
-                }
-                else if (container.Tamaño == 40)
-                {
-                    espaciosOcupados = 2;
-                }
-                cantidadContainers = cantidadContainers + espaciosOcupados;
-                container.Buque = new Buque(codigo,nombre,Pais,cantidadContainers);
-                esPosible = true;
-            }
+            
 
             return esPosible;   
 

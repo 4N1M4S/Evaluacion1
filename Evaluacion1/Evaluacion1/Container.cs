@@ -43,28 +43,35 @@ namespace Evaluacion1
         /// <param name="tamaño"></param>
         /// <param name="esRefrigerado"></param>
         /// <param name="pesoActual"></param>
-        public Container(string codigo, string marca, int cantidadMaxima, byte tamaño, bool esRefrigerado, int pesoActual) : this(codigo)
+        public Container(string codigo, string marca, int cantidadMaxima, byte tamaño, bool esRefrigerado, int pesoActual)
         {
-            this.marca = marca;
-            this.cantidadMaxima = cantidadMaxima;
-            this.tamaño = tamaño;
-            this.esRefrigerado = esRefrigerado;
+            
             if (0 < pesoActual)
             {
-                if (pesoActual <= cantidadMaxima)
+                if (PuedeSubir(cantidadMaxima,pesoActual))
                 {
-                    this.pesoActual = pesoActual;
+                    if (tamaño == 20 || tamaño == 40)
+                    {
+                        this.codigo = codigo;
+                        this.marca = marca;
+                        this.cantidadMaxima = cantidadMaxima;
+                        this.esRefrigerado = esRefrigerado;
+                        this.pesoActual = pesoActual;
+                        this.tamaño = tamaño;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Un container solo puede medir 20 o 40 pies");
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("El peso máximo supera la capacidad del container, así que solo se llenará la capacidad máxima");
-                    this.pesoActual = cantidadMaxima;
+                    Console.WriteLine("El peso máximo supera la capacidad del container");
                 }
             }
             else
             {
-                Console.WriteLine("El peso especificado es igual o menor a 0. Se dejará el valor por defecto de 1");
-                this.pesoActual = 1;
+                Console.WriteLine("El peso especificado es igual o menor a 0");
             }
 
         }
@@ -119,10 +126,19 @@ namespace Evaluacion1
             return coste;
         } 
 
-        public bool PuedeSubir()
+        public bool PuedeSubir(int pesoMaximo, int pesoPorSubir)
         {
             bool esPosible = false;
-            
+
+            if (pesoMaximo >= pesoPorSubir)
+            {
+                esPosible = true;
+                Console.WriteLine("Se puede subir el peso");
+            }
+            else
+            {
+
+            }
 
             return esPosible;
         }

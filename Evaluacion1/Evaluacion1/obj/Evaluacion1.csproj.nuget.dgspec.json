@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\molle\\Source\\Repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\Evaluacion1.csproj": {}
+    "C:\\Users\\molle\\source\\repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\Evaluacion1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\molle\\Source\\Repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\Evaluacion1.csproj": {
+    "C:\\Users\\molle\\source\\repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\Evaluacion1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\molle\\Source\\Repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\Evaluacion1.csproj",
+        "projectUniqueName": "C:\\Users\\molle\\source\\repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\Evaluacion1.csproj",
         "projectName": "Evaluacion1",
-        "projectPath": "C:\\Users\\molle\\Source\\Repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\Evaluacion1.csproj",
+        "projectPath": "C:\\Users\\molle\\source\\repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\Evaluacion1.csproj",
         "packagesPath": "C:\\Users\\molle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\molle\\Source\\Repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\obj\\",
+        "outputPath": "C:\\Users\\molle\\source\\repos\\Evaluacion1\\Evaluacion1\\Evaluacion1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\molle\\AppData\\Roaming\\NuGet\\NuGet.Config",

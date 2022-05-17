@@ -18,12 +18,16 @@ namespace App1
             var container1 = new Container("1", "Marca", 2000, 20, false, 1200);
             var container2 = new Container("2", "Marcados", 8000, 40, true, 3500);
             var container3 = new Container("3", "Marcatres", 2000, 20, false, 150);
-            var container4 = new Container("4", "Marcuatro", 8000, 40, false, 800);
+            var container4 = new Container("4", "Marcuatro", 8000, 40, false, 8000);
 
             buque1.SubirContainer(container1);
             buque1.SubirContainer(container2);
 
             buque1.ListarContainers();
+
+            container3.ValorPagoInspeccion();
+
+            container1.SacarPeso(200);
 
             Console.ReadKey();
 
