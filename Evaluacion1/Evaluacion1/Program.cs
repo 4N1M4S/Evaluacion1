@@ -27,6 +27,8 @@ namespace App1
 
             container3.ValorPagoInspeccion();
 
+            container4.PuedeSubir(2000);
+
             container1.SacarPeso(200);
 
             Console.ReadKey();

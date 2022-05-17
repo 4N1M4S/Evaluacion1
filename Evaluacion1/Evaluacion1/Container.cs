@@ -48,7 +48,7 @@ namespace Evaluacion1
             
             if (0 < pesoActual)
             {
-                if (PuedeSubir(cantidadMaxima,pesoActual))
+                if (PuedeSubir(pesoActual))
                 {
                     if (tamaño == 20 || tamaño == 40)
                     {
@@ -126,18 +126,24 @@ namespace Evaluacion1
             return coste;
         } 
 
-        public bool PuedeSubir(int pesoMaximo, int pesoPorSubir)
+        /// <summary>
+        /// Método para verificar si se puede subir peso a un container
+        /// </summary>
+        /// <param name="pesoMaximo"></param>
+        /// <param name="pesoPorSubir"></param>
+        /// <returns></returns>
+        public bool PuedeSubir(int pesoPorSubir)
         {
             bool esPosible = false;
 
-            if (pesoMaximo >= pesoPorSubir)
+            if (cantidadMaxima >= pesoPorSubir)
             {
                 esPosible = true;
                 Console.WriteLine("Se puede subir el peso");
             }
             else
             {
-
+                Console.WriteLine("No se puede subir el peso");
             }
 
             return esPosible;
