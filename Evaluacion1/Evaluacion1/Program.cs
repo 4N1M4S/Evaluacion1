@@ -27,7 +27,12 @@ namespace App1
 
             container3.ValorPagoInspeccion();
 
-            container4.PuedeSubir(2000);
+            Console.WriteLine("Costo container 1: $" + container1.CalcularGastosEnvio());
+            Console.WriteLine("Costo container 2: $" + container2.CalcularGastosEnvio());
+            Console.WriteLine("Costo container 3: $" + container3.CalcularGastosEnvio());
+            Console.WriteLine("Costo container 4: $" + container4.CalcularGastosEnvio());
+
+            container4.PuedeSubir(container4.CantidadMaxima,2000);
 
             container1.SacarPeso(200);
 

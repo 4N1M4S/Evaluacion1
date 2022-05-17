@@ -48,7 +48,7 @@ namespace Evaluacion1
             
             if (0 < pesoActual)
             {
-                if (PuedeSubir(pesoActual))
+                if (PuedeSubir(cantidadMaxima,pesoActual))
                 {
                     if (tamaño == 20 || tamaño == 40)
                     {
@@ -132,11 +132,12 @@ namespace Evaluacion1
         /// <param name="pesoMaximo"></param>
         /// <param name="pesoPorSubir"></param>
         /// <returns></returns>
-        public bool PuedeSubir(int pesoPorSubir)
+        public bool PuedeSubir(int pesoMaximo, int pesoPorSubir)
         {
             bool esPosible = false;
+            int pesoResultante = pesoPorSubir + pesoActual;
 
-            if (cantidadMaxima >= pesoPorSubir)
+            if (pesoMaximo >= pesoResultante)
             {
                 esPosible = true;
                 Console.WriteLine("Se puede subir el peso");
